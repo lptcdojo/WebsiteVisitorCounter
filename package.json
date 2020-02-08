@@ -1,0 +1,14 @@
+{
+  "name": "counter-server",
+  "version": "1.0.0",
+  "description": "A basic server to record website visitors",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Beattie",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
