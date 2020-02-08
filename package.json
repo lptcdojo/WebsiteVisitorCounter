@@ -4,8 +4,8 @@
   "description": "A basic server to record website visitors",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Richard Beattie",
   "license": "MIT",
