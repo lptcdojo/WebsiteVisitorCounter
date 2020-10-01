@@ -8,7 +8,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", (req, res) =>{
-    res.json({message: "Welcome to LPTCDojo's Website Counter"});
+    res.json({message: `Welcome to LPTCDojo's Website Counter`});
 });
 
 require('./app/routes/counter.routes.js')(app);
